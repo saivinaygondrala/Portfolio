@@ -2,16 +2,16 @@
 
 const CONFIG = {
   github: {
-    username: 'Saivinay Gondrala', // Your GitHub org/user name. (This is the only required config)
+    username: 'SaivinayGondrala', // Your GitHub org/user name. (This is the only required config)
   },
-  base: '/Portfolio/',
+  base: '/',
   projects: {
     github: {
       display: true, // Display GitHub projects?
       header: 'Github Projects',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
-        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
+        sortBy: 'updated', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
@@ -20,7 +20,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['saivinaygondrala/portfolio'], // List of repository names to display.
       },
     },
     external: {
@@ -28,33 +28,51 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'City of Dallas Revenue Budget Analysis',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Analysing the budget allocation and which department got allocated which how much budget and what is the yearly budget. And what is the monthly expenditure. All of them can be analysed by using the tools such as Excel, Tableau, Tableau Prep, OpenRefine.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://img.freepik.com/premium-vector/set-business-graph-charts-icons-business-data-charts_349999-1122.jpg?w=740',
+          link: 'https://drive.google.com/file/d/1qGcmyBxgO2lfi2apHndnVjgFrZE0ItlE/view',
         },
         {
-          title: 'Project Name',
+          title: 'Telecom Churn Prediction',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'By using machine learning algorithms like Linear Regression, Logistic Regression, Random Forest done the telecome churn prediction and achieved an accuracy of 98%.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://images.datacamp.com/image/upload/v1648487930/shutterstock_1624376548_b831bdf4c1.jpg',
+          link: 'https://drive.google.com/file/d/1-Vm8hwyB46xcwsnB7MXdtJ4nDybkAgzp/view?usp=drive_link',
+        },
+        {
+          title: 'House Rental Application',
+          description:
+            'This is a full stack react application which allows tenants to view properties which are available in their current location and the owner of the property can post add in our portal.',
+          imageUrl:
+            'https://media.licdn.com/dms/image/C4D12AQFJ9DlofYqxNA/article-cover_image-shrink_423_752/0/1633958067245?e=1728518400&v=beta&t=bEzmUhg2-4RJqd3JlhzkubvNjcBQtvouAhHf91XiTuI',
+          link: 'https://x.com/i/status/1640245808988815360',
+        },
+        {
+          title: 'E-Insurance Management System',
+          description:
+            'This is the fullstack Angular application which acts as a mediator between the customers who want to purchase the insurances and companies which offer insurance plans. In this the admin of this application can post an add related to insurance. And our platform allows users to purchase any insurance plan. We used stripe payments to perform payments.',
+          imageUrl:
+            'https://www.leadsquared.com/wp-content/uploads/2021/11/insurance-software-features-benefits.jpg',
+          link: 'https://github.com/saivinaygondrala/E-Insurance-Management-System',
         },
       ],
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
-    description: '',
-    imageURL: '',
+    title: 'Portfolio of Sai Vinay Gondrala',
+    description:
+      'Welcome to Vinay`s Portfolio - a showcase of my expertise in advanced data analytics, full-stack development, and innovative technology solutions. With a solid foundation in programming languages like Java, Python, and JavaScript, and proficiency in frameworks such as React, I bring ideas to life with seamless web and mobile applications.\nExplore my projects, including RustCrab, an in-depth resource for Rust enthusiasts, and a comprehensive house rental application integrating cutting-edge technologies like Node.js, MongoDB, and Stripe. Discover my contributions to the field through published research, highlighting my commitment to solving real-world problems with data-driven insights and robust software development practices.\nWhether you`re interested in data visualization, mobile app development, or full-stack solutions, you`ll find a diverse portfolio demonstrating a blend of creativity, technical acumen, and dedication to excellence. Dive into detailed project descriptions, browse through my technical skills, and learn more about my journey in the world of tech.\nConnect with me to collaborate on innovative projects, discuss potential opportunities, or simply exchange ideas. Let`s build the future together, one line of code at a time.',
+    imageURL:
+      'https://img.freepik.com/free-vector/user-circles-set_78370-4704.jpg?w=740&t=st=1722961555~exp=1722962155~hmac=c132722a8d7f09435c8f525bfd65e32092cdc4f6277b78373a7b4e607a19f865',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'saivinay-gondrala',
+    twitter: 'saivinay_g',
+    mastodon: '',
     researchGate: '',
     facebook: '',
     instagram: '',
@@ -64,99 +82,94 @@ const CONFIG = {
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: 'saivinaygondrala',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: 'https://saivinaygondrala.github.io/Portfolio',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'saivinaygondrala@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1Ygt-qc3I1BY2Jx8slCgGhWN5hLHZXx0a/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
+    'Java',
+    'Springboot',
     'JavaScript',
     'React.js',
-    'Node.js',
-    'Nest.js',
+    'Servlets',
+    'JSP',
     'MySQL',
-    'PostgreSQL',
     'Git',
-    'Docker',
-    'PHPUnit',
+    'Github',
+    'Python',
+    'Bootstrap',
     'CSS',
-    'Antd',
     'Tailwind',
   ],
-  experiences: [
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
-    },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
-    },
-  ],
+  experiences: [],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'Frontend Developer (React) Certificate',
+      body: 'A Certification test conducted by Hackerrank.',
+      year: 'July 2024',
+      link: 'https://www.hackerrank.com/certificates/4c6e49fb8e66',
+    },
+    {
+      name: 'Javascript (Intermediate) Certificate',
+      body: 'A Certification test conducted by Hackerrank.',
+      year: 'July 2024',
+      link: 'https://www.hackerrank.com/certificates/1d8d0d6af194',
+    },
+    {
+      name: 'Postman API Fundamentals Student Expert',
+      body: 'A certification course which was conducted by Postman which teaches us the basics of API and how to set up API`s in Postman and create collections.',
+      year: 'June 2024',
+      link: 'https://badgr.com/public/assertions/k6PkL6n1TTyV9Tabsayb0A?identity__email=saivinaygondrala@gmail.com',
+    },
+    {
+      name: 'Project-Based Learning: build an API Tet Summarizer app',
+      body: 'A Certification course which teaches us to learn how to l=build text summerization app using Node.JS and Postman builtin Code generator.',
+      year: 'June 2024',
+      link: 'https://verify.skilljar.com/c/rfh7t92eech6',
+    },
+    {
+      name: 'Java Programming: Solving Problems with Software',
+      body: 'A certification course conducted by Duke University. On Coursera Platform. ',
+      year: 'October 2020',
+      link: 'https://www.coursera.org/account/accomplishments/verify/6Z4U9CUTD2TW',
     },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'University of North Texas',
+      degree: 'Ms in Advanced Data Analytics',
+      from: '2023',
+      to: '2025',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Sathyabama Institute of Science and Technology',
+      degree: 'BE CSE',
+      from: '2019',
+      to: '2023',
     },
   ],
   publications: [
     {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      title: 'House Rental Application System',
+      conferenceName:
+        'ICRTDA 2023 - International Conference on Recent Trends and Technologies',
+      journalName: 'River Publishers',
+      authors:
+        'Sai Vinay Gondrala, Praveen Gongada, Goluguri Venkata Sai Rama Reddy',
+      link: 'https://www.riverpublishers.com/pdf/ebook/chapter/RP_9788770040723C53.pdf',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'House Rental Application System: Developed a comprehensive house rental application with mobile and web clients using React, Node.js, MongoDB, Flutter, and AWS S3. Integrated Stripe for payment processing, enabling users to search, post, and rent properties efficiently.',
     },
   ],
-  // Display articles from your medium or dev account. (Optional)
-  blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many articles to display. Max is 10.
-  },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
@@ -166,11 +179,11 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'forest',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
@@ -230,10 +243,10 @@ const CONFIG = {
 
   // Optional Footer. Supports plain text or HTML.
   footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+  class="text-primary" href="https://github.com/arifszn/gitprofile"
+  target="_blank"
+  rel="noreferrer"
+>GitProfile</a> and ❤️`,
 
   enablePWA: true,
 };
