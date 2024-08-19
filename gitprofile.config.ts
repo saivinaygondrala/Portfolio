@@ -109,6 +109,7 @@ const CONFIG = {
     'Bootstrap',
     'CSS',
     'Tailwind',
+    'HTML',
   ],
   experiences: [],
   certifications: [
