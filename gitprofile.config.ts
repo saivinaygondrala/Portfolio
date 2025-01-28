@@ -63,14 +63,14 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Sai Vinay Gondrala',
+    title: 'My Portfolio',
     description:
       'Welcome to Vinay`s Portfolio - a showcase of my expertise in advanced data analytics, full-stack development, and innovative technology solutions. With a solid foundation in programming languages like Java, Python, and JavaScript, and proficiency in frameworks such as React, I bring ideas to life with seamless web and mobile applications.\nExplore my projects, including RustCrab, an in-depth resource for Rust enthusiasts, and a comprehensive house rental application integrating cutting-edge technologies like Node.js, MongoDB, and Stripe. Discover my contributions to the field through published research, highlighting my commitment to solving real-world problems with data-driven insights and robust software development practices.\nWhether you`re interested in data visualization, mobile app development, or full-stack solutions, you`ll find a diverse portfolio demonstrating a blend of creativity, technical acumen, and dedication to excellence. Dive into detailed project descriptions, browse through my technical skills, and learn more about my journey in the world of tech.\nConnect with me to collaborate on innovative projects, discuss potential opportunities, or simply exchange ideas. Let`s build the future together, one line of code at a time.',
     imageURL:
       'https://img.freepik.com/free-vector/user-circles-set_78370-4704.jpg?w=740&t=st=1722961555~exp=1722962155~hmac=c132722a8d7f09435c8f525bfd65e32092cdc4f6277b78373a7b4e607a19f865',
   },
   social: {
-    linkedin: 'saivinay-gondrala',
+    linkedin: 'saivinay-g',
     twitter: 'saivinay_g',
     mastodon: '',
     researchGate: '',
@@ -83,7 +83,7 @@ const CONFIG = {
     dribbble: '',
     behance: '',
     medium: '',
-    dev: 'saivinaygondrala',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
@@ -93,7 +93,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1Ygt-qc3I1BY2Jx8slCgGhWN5hLHZXx0a/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
+      'https://tinyurl.com/y2uk42fb', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Java',
@@ -110,6 +110,9 @@ const CONFIG = {
     'CSS',
     'Tailwind',
     'HTML',
+    'Terraform',
+    'AWS S3',
+    'AWS EC2'
   ],
   experiences: [],
   certifications: [
