@@ -87,13 +87,13 @@ const CONFIG = {
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://saivinaygondrala.github.io/Portfolio',
+    website: 'https://saivinay-portfolio.vercel.app/',
     phone: '',
     email: 'saivinaygondrala@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://tinyurl.com/y2uk42fb', // Empty fileUrl will hide the `Download Resume` button.
+      'https://tinyurl.com/saivinay-resume', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Java',
@@ -147,6 +147,11 @@ const CONFIG = {
       year: 'October 2020',
       link: 'https://www.coursera.org/account/accomplishments/verify/6Z4U9CUTD2TW',
     },
+    {
+      name: 'Citi\'s Technology Software Development on Forage',
+      body: 'A certification program which gives you work simulation at Citi bank by giving realworld tasks.',
+      link: 'https://tinyurl.com/certificate-simulation'
+    }
   ],
   educations: [
     {
