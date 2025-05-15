@@ -93,7 +93,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://tinyurl.com/saivinay-resume', // Empty fileUrl will hide the `Download Resume` button.
+      'https://tinyurl.com/saivinays-resume', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Java',
