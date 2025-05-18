@@ -28,22 +28,6 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'City of Dallas Revenue Budget Analysis',
-          description:
-            'Analysing the budget allocation and which department got allocated which how much budget and what is the yearly budget. And what is the monthly expenditure. All of them can be analysed by using the tools such as Excel, Tableau, Tableau Prep, OpenRefine.',
-          imageUrl:
-            'https://img.freepik.com/premium-vector/set-business-graph-charts-icons-business-data-charts_349999-1122.jpg?w=740',
-          link: 'https://drive.google.com/file/d/1qGcmyBxgO2lfi2apHndnVjgFrZE0ItlE/view',
-        },
-        {
-          title: 'Telecom Churn Prediction',
-          description:
-            'By using machine learning algorithms like Linear Regression, Logistic Regression, Random Forest done the telecome churn prediction and achieved an accuracy of 98%.',
-          imageUrl:
-            'https://images.datacamp.com/image/upload/v1648487930/shutterstock_1624376548_b831bdf4c1.jpg',
-          link: 'https://drive.google.com/file/d/1-Vm8hwyB46xcwsnB7MXdtJ4nDybkAgzp/view?usp=drive_link',
-        },
-        {
           title: 'House Rental Application',
           description:
             'This is a full stack react application which allows tenants to view properties which are available in their current location and the owner of the property can post add in our portal.',
