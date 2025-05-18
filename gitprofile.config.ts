@@ -15,7 +15,7 @@ const CONFIG = {
         limit: 8, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
-          projects: ['saivinaygondrala/test','saivinaygondrala/first-contributions','saivinaygondrala/vcard-personal-portfolio','saivinaygondrala/Complete-Python-3-Bootcamp'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: ['saivinaygondrala/test','saivinaygondrala/first-contributions','saivinaygondrala/vcard-personal-portfolio','saivinaygondrala/Complete-Python-3-Bootcamp','saivinaygondrala/saivinaygondrala'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
       manual: {
